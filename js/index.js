@@ -3,7 +3,7 @@ document.getElementById('btn-submit').addEventListener('click', function(){
      const passwordValue = inputValueAndOutput('input-password');
      
      if(emailValue == 'sarzilmuntaha@gmail.com' && passwordValue == '12345'){
-       window.location.href = "calculateBankMoney.html";
+       window.location.href = "pinMatcher.html";
      }
      else{
        alert('Your information is incorrect!!.Please enter correct information');
